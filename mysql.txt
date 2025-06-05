@@ -1,0 +1,4 @@
+*loan*      create table loan(FullName varchar(100),Gender varchar(100),MobileNo bigint,Typeloan varchar(100),LoanAcc bigint Primary key,Branch varchar(100),Occupation varchar(100),yearlyIncome bigint,Timeperiod varchar (100),LoanAmt bigint);
+*register*  create table register(FirstName varchar(100),SurNam varchar(100),Email varchar(100),AccountNo bigint primary key,Password varchar(100),ContactNo bigint);
+*bank*      CREATE TABLE `bank` (`FullName` VARCHAR(100),`Idproof` VARCHAR(100),`Nationality` VARCHAR(100),`Gender` VARCHAR(100),`AccountNo` BIGINT primary key,`AccountType` VARCHAR(100),`Cast` VARCHAR(100),`MobileNo` BIGINT,`Address` VARCHAR(100),`Balance` BIGINT,);
+*transation*  CREATE TABLE `transation` (`Date` DATE NOT NULL,`Time` TIME NOT NULL,`AccountNo` BIGINT NOT NULL,`Operation` VARCHAR(100) NOT NULL,`TransationAc` BIGINT,`Amountpluse` BIGINT,`AmountMinuse` BIGINT);
